@@ -1,10 +1,10 @@
 import React from "react";
 
-const ChildB = ({ value }) => {
+const ChildB = ({ result }) => {
   return (
     <div>
-      <h3>ChildB output</h3>
-      <p>{value}</p>
+      <h3>ChildB - Output</h3>
+      <p>Result: {result}</p>
     </div>
   );
 };
